@@ -2,11 +2,11 @@
 
 ### Step 1 — Installing vsftpd
 
-. . .
+```
 sudo apt update
 sudo apt install vsftpd
 sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig
-. . .
+```
 
 ### Step 2 — Opening the Firewall
 
