@@ -50,6 +50,6 @@ chroot_local_user=NO
 sudo systemctl restart vsftpd
 ```
 
-ftp://$your_server_ip
+**ftp://**your_server_ip
 
 
