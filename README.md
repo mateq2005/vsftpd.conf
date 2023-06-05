@@ -57,9 +57,8 @@ allow_writeable_chroot=YES
 
 **Specific User's Isolation**
 ```
-chroot_local_user=YES
-chroot_list_enable=NO
-allow_writeable_chroot=YES
+chroot_local_user=NO
+chroot_list_enable=YES allow_writeable_chroot=YES
 chroot_list_file=/etc/vsftpd.chroot_list
 ```
 • add isolated user to *vsftpd.chroot_list*
