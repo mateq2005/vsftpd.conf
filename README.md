@@ -54,7 +54,7 @@ chroot_local_user=YES
 chroot_list_enable=NO
 ```
 
-**Restarting vsftpd:**
+**Restarting vsftpd**
 ```
 sudo systemctl restart vsftpd
 ```
