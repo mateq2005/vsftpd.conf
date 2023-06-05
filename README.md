@@ -32,7 +32,7 @@ echo "Hello!" > /srv/ftp/directory_name/message
 sudo nano /etc/vsftpd.conf
 ```
 
-**Połączenie anonimowe**
+**Połączenie anonimowe:**
 ```
 anonymous_enable=YES
 write_enable=YES
