@@ -48,6 +48,12 @@ anon_other_write_enable=YES
 anon_root=/srv/ftp/directory_name/
 ```
 
+**Users' Isolation**
+```
+chroot_local_user=YES
+chroot_list_enable=NO
+```
+
 **Restarting vsftpd:**
 ```
 sudo systemctl restart vsftpd
