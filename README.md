@@ -33,7 +33,8 @@ sudo nano /etc/vsftpd.conf
 ```
 
 ```
-
+anonymous_enable=YES
+write_enable=YES
 ```
 
 ```
