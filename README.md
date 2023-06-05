@@ -32,6 +32,11 @@ echo "Hello!" > /srv/ftp/directory_name/message
 sudo nano /etc/vsftpd.conf
 ```
 
+**Banner**
+```
+ftpd_banner=-=-=-=-=-=Witaj
+```
+
 **Połączenie anonimowe:**
 ```
 anonymous_enable=YES
