@@ -52,6 +52,7 @@ anon_root=/srv/ftp/directory_name/
 ```
 chroot_local_user=YES
 chroot_list_enable=NO
+allow_writeable_chroot=YES
 ```
 
 **Restarting vsftpd**
