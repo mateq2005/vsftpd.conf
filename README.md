@@ -34,7 +34,7 @@ sudo nano /etc/vsftpd.conf
 
 **Banner**
 ```
-ftpd_banner=-=-=-=-=-=Witaj
+ftpd_banner= Welcome to vsftpd.service
 ```
 
 **Połączenie anonimowe:**
