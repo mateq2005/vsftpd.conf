@@ -48,6 +48,7 @@ anon_other_write_enable=YES
 anon_root=/srv/ftp/directory_name/
 ```
 
+**Restarting vsftpd:**
 ```
 sudo systemctl restart vsftpd
 ```
