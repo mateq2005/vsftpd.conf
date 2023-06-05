@@ -37,7 +37,7 @@ sudo nano /etc/vsftpd.conf
 ftpd_banner= Welcome to vsftpd.service
 ```
 
-**Połączenie anonimowe:**
+**Anonymous Connection**
 ```
 anonymous_enable=YES
 write_enable=YES
