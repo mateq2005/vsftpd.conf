@@ -33,17 +33,7 @@ sudo nano /etc/vsftpd.conf
 ```
 
 ```
-# Allow anonymous FTP? (Disabled by default).
-anonymous_enable=YES
-#
-# Uncomment this to allow local users to log in.
-local_enable=NO
-. . .
-write_enable=NO
-. . .
-ftpd_banner=Welcome to blah FTP service.
-. . .
-chroot_local_user=NO
+
 ```
 
 ```
