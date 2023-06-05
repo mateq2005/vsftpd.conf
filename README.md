@@ -35,6 +35,9 @@ sudo nano /etc/vsftpd.conf
 ```
 anonymous_enable=YES
 write_enable=YES
+anon_upload_enable=YES
+anon_mkdir_write_enable=YES
+anon_root=/srv/ftp
 ```
 
 ```
