@@ -55,6 +55,14 @@ chroot_list_enable=NO
 allow_writeable_chroot=YES
 ```
 
+**Specific User's Isolation**
+```
+chroot_local_user=YES
+chroot_list_enable=NO
+allow_writeable_chroot=YES
+chroot_list_file=/etc/vsftpd.chroot_list
+```
+
 **Restarting vsftpd**
 ```
 sudo systemctl restart vsftpd
