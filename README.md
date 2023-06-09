@@ -4,7 +4,7 @@
 
 ```
 sudo apt-get update
-sudo apt-get install vsftpd
+sudo apt-get install vsftpd -y
 ```
 
 ```
