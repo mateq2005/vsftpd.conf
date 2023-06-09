@@ -35,7 +35,7 @@ anonymous_enable=YES
 write_enable=YES
 anon_upload_enable=YES
 anon_mkdir_write_enable=YES
-anon_root=/srv/ftp
+anon_root=/srv/ftp/anonymous
 anon_other_write_enable=YES
 ```
 
