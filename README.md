@@ -17,16 +17,7 @@ systemctl status vsftpd
 sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig
 ```
 
-### Step 2 — Opening the Firewall
-
-```
-sudo ufw status
-sudo ufw allow 20,21,990/tcp
-sudo ufw allow 40000:50000/tcp
-sudo ufw status
-```
-
-### Step 3 — Preparing the User Directory
+### Preparing the User Directory
 
 ```
 sudo mkdir /srv/ftp/directory_name
@@ -35,7 +26,7 @@ sudo chmod -R 755 /srv/ftp/directory_name
 echo "Hello!" > /srv/ftp/directory_name/message
 ```
 
-### Step 4 — Configuring FTP Access
+### Configuring FTP Access
 
 ```
 sudo nano /etc/vsftpd.conf
@@ -80,7 +71,8 @@ chroot_list_file=/etc/vsftpd.chroot_list
 ```
 • add isolated user to *vsftpd.chroot_list*
 
-**Restarting vsftpd**
+### Restarting vsftpd
+
 ```
 sudo systemctl restart vsftpd
 ```
