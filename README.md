@@ -17,15 +17,6 @@ systemctl status vsftpd
 sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig
 ```
 
-### Preparing the User Directory
-
-```
-sudo mkdir /srv/ftp/directory_name
-sudo chown -R nobody:nogroup /srv/ftp/directory_name
-sudo chmod -R 755 /srv/ftp/directory_name
-echo "Hello!" > /srv/ftp/directory_name/message
-```
-
 ### Configuring FTP Access
 
 ```
