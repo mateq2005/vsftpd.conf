@@ -37,7 +37,7 @@ sudo nano /etc/vsftpd.conf
 ftpd_banner= Welcome to vsftpd.service
 ```
 
-**Anonymous Connection**
+### Anonymous Connection
 ```
 anonymous_enable=YES
 write_enable=YES
@@ -47,14 +47,20 @@ anon_root=/srv/ftp
 anon_other_write_enable=YES
 ```
 
-**Users' Isolation**
+```
+sudo mkdir /srv/ftp/anonymous
+sudo chown -R nobody:nogroup /srv/ftp/anonymous
+sudo chmod -R 755 /srv/ftp/anonymous
+```
+
+### Users' Isolation
 ```
 chroot_local_user=YES
 chroot_list_enable=NO
 allow_writeable_chroot=YES
 ```
 
-**Specific User's Isolation**
+### Specific User's Isolation
 ```
 chroot_local_user=NO
 chroot_list_enable=YES allow_writeable_chroot=YES
@@ -62,7 +68,7 @@ chroot_list_file=/etc/vsftpd.chroot_list
 ```
 • add isolated user to *vsftpd.chroot_list*
 
-**Specific User's not isolating**
+### Specific User's not isolating
 ```
 chroot_local_user=YES
 chroot_list_enable=NO
