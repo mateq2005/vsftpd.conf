@@ -1,10 +1,10 @@
 # vsFTPd
 
-### Step 1 — Installing vsftpd
+### Installing vsftpd
 
 ```
-sudo apt update
-sudo apt install vsftpd
+sudo apt-get update
+sudo apt-get install vsftpd
 sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig
 ```
 
