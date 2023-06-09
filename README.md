@@ -71,7 +71,7 @@ chroot_list_enable=NO
 allow_writeable_chroot=YES
 chroot_list_file=/etc/vsftpd.chroot_list
 ```
-• add isolated user to *vsftpd.chroot_list*
+• add not-isolated user to *vsftpd.chroot_list*
 
 ### Restarting vsftpd
 
