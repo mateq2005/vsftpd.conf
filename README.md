@@ -8,6 +8,11 @@ sudo apt-get install vsftpd
 ```
 
 ```
+systemctl start vsftpd
+systemctl enable vsftpd
+systemctl status vsftpd
+```
+
 sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig
 ```
 
